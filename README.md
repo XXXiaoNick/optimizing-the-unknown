@@ -8,3 +8,6 @@ Thank you very much for providing insightful comments and valuable suggestions o
 - [Responses to Reviewer o2FE](./reviewer_o2FE.md)
 
 We sincerely appreciate the reviewers' time and effort, which have significantly improved our work.
+
+Best regards,  
+The Authors
