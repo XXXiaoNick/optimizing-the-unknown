@@ -33,7 +33,7 @@ Table 4: Computational complexity analysis comparing traditional single-step Bay
 
 ## Table 5: Computational complexity analysis
 ![999](./reviewer_9KU5_doc/Computational-Cost_con.png)
-Table 4: Computational complexity analysis comparing traditional single-step Bayesian Optimization (BO) with the proposed REBMBO framework on a per-iteration basis. While both approaches share the same O(n³) complexity for Gaussian Process (GP) updates, REBMBO introduces additional computational requirements from Energy-Based Model (EBM) training using short-run MCMC (O(K·B·L·d·h)) and Reinforcement Learning strategy updates via Proximal Policy Optimization (O(M·Lπ·hπ)). Despite the increased complexity, REBMBO's superior optimization performance justifies these computational trade-offs, particularly for high-dimensional and complex objective functions where traditional BO methods struggle to converge efficiently.
+Table 5: Quantitative breakdown of computational operations required per iteration for each component of the REBMBO framework. The GP update involves approximately 64,000 operations (equivalent to O(n³) with n=40), which is CPU-based and occurs in every iteration. The EBM training with short-run MCMC is the most computationally intensive component at approximately 3.93 million operations, necessitating GPU acceleration for practical implementation with parallelizable MCMC steps. The PPO policy update adds minimal overhead with only about 1,280 operations per iteration and can also benefit from GPU acceleration. This concrete example illustrates the relative computational cost distribution across REBMBO's components.
 
 ## Table 6: Ablation Study 
 ![10](./reviewer_9KU5_doc/Abalation_Study.png)
