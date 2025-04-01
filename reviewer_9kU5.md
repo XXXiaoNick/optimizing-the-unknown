@@ -47,7 +47,7 @@ Figure 5: Statistical significance analysis of optimization performance across d
 ![12](./reviewer_9KU5_doc/Visual_analysis_of_statistical_significance.png)
 Figure 6: Statistical comparison of REBMBO variants (REBMBO-S, REBMBO-D, REBMBO-C) against baseline methods (BALLET-ICT, EARL-BO, TuRBO) based on 5 independent optimization runs per algorithm across multiple benchmarks. The top-left boxplot displays the distribution of performance scores, showing REBMBO-D achieving the highest median performance with the smallest variance. The top-right bar chart presents mean performance with standard deviation, visually confirming REBMBO variants (blue) consistently outperform baseline methods (red). The bottom heatmap shows statistical significance (p-values) between methods, with asterisks indicating significance levels (* p<0.05, ** p<0.01, *** p<0.001). Key findings highlight that REBMBO variants demonstrate statistically significant performance advantages (p<0.05), with REBMBO-D showing the most significant improvement in high-dimensional tasks (p<0.01) and all variants exhibiting greater stability across multiple runs.
 
-## Figure 7: 
+## Figure 7: Updated overall framework
 ![13](./reviewer_9KU5_doc/overall_framework.png)
 
 
